@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y
 EXPOSE 80
 
 # Define environment variable
-ENV NAME World
+ENV NAME World lund lund
 
 # Run app.py when the container launches
 CMD ["bash"]
