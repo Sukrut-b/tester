@@ -9,6 +9,7 @@ echo "specific values in array ${myarr[*]:1}"
 echo "specific values in array with range ${myarr[*]:1:3}"
 
 #updating array with new values
+# my update
 
 myarr+=(New 304 888)
 echo "New array is: ${myarr[*]}"
